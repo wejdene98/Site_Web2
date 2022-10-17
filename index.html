@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Web</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    My Site Web
+                </div>
+            </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <div class="nav-links">
+                <a href="#">MenuItem</a>
+                <a href="#">MenuItem</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div class="sidebar" style="width: 20%;">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                    <li><a class="menu__item" href="#">MenuItem</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="MainContent">
+            <div class="tabset">
+                <!-- Tab 1 -->
+                <input type="radio" name="tabset" id="tab1" aria-controls="tab1" checked>
+                <label for="tab1">tab1</label>
+                <!-- Tab 2 -->
+                <input type="radio" name="tabset" id="tab2" aria-controls="tab2">
+                <label for="tab2">tab2</label>
+                <!-- Tab 3 -->
+                <input type="radio" name="tabset" id="tab3" aria-controls="tab3">
+                <label for="tab3">tab3</label>
+
+                <div class="tab-panels">
+                    <section id="tab1" class="tab-panel">
+                        <h2>tab1</h2>
+                        <p><strong>tab1:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            imperdiet, Maecenas nisl est, ultrices nec congue eget,
+                            auctor vitae massa. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+                            convallis urna a lacus interdum ut hendrerit risus congue. sed ullamcorper ipsum dignissim
+                            ac. In at libero sed</p>
+                        <p><strong>History:</strong> Modern versions trace back to the lager developed by Spaten in 1841
+                        </p>
+                    </section>
+                    <section id="tab2" class="tab-panel">
+                        <h2>tab2</h2>
+                        <p><strong>tab2:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            imperdiet, Maecenas nisl est, ultrices nec congue eget,
+                            auctor vitae massa. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+                            convallis urna a lacus interdum ut hendrerit risus congue. sed ullamcorper ipsum dignissim
+                            ac. In at libero sed
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, Maecenas nisl
+                            est, ultrices nec congue eget,
+                            auctor vitae massa. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+                            convallis urna a lacus interdum ut hendrerit risus congue. sed ullamcorper ipsum dignissim
+                            ac. In at libero sed</p>
+                        <p><strong>History:</strong> Modern versions trace back to the lager developed by Spaten in 1841
+                        </p>
+                    </section>
+                    <section id="tab3" class="tab-panel">
+                        <h2>tab3</h2>
+                        <p><strong>tab3:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich
+                            and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+                        <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a
+                            brewing center and popular exporter in the days of the Hanseatic League (14th to 17th
+                            century). Recreated in Munich starting in the 17th century.</p>
+                    </section>
+                </div>
+
+            </div>
+            <section>
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide_1">
+                                    <div class="slide-content">
+                                        <h2>Slide 1</h2>
+                                        <p>Content for Slide 1</p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_2">
+                                    <div class="slide-content">
+                                        <h2>Slide 2</h2>
+                                        <p>Content for Slide 2</p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_3">
+                                    <div class="slide-content">
+                                        <h2>Slide 3</h2>
+                                        <p>Content for Slide 3</p>
+                                    </div>
+                                </div>
+                                <div class="slide slide_4">
+                                    <div class="slide-content">
+                                        <h2>Slide 4</h2>
+                                        <p>Content for Slide 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="card-header">
+                        <figure class="floating-figure">
+                            <img src="OIP.jpg" alt="OIP" />
+                            <figcaption class="writing">
+                                <p>1/4</p>
+                                <div class="star">
+                                    <i>⭐</i>
+                                    <i>⭐</i>
+                                    <i>⭐</i>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            imperdiet, nulla et dictum interdum, Maecenas nisl est, ultrices nec
+                            congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut
+                            aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+                            odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+                            congue. sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+                            venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus
+                            gravida venenatis. Cras ac leo purus. Mauris quis diam velit.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="card-body">
+                            <input type="button" value="one" />
+                            <input type="button" value="secondary" />
+                            <input type="button" value="three" />
+                            <a href="#" class="tooltip" data-title="one">your link</a>
+                        </div>
+                        <div class="card-footer">
+                            <i>&#9996;</i>
+                            <i>&#9996;</i>
+                            <i>&#9996;</i>
+                        </div>
+                    </div>
+                    <div>
+                        <table border="5" width="600">
+                            <caption>
+                                <h1>Commande</h1>
+                            </caption>
+                            <thead>
+                                <th>Id</th>
+                                <th>Nom De Produit</th>
+                                <th>Quantité</th>
+                                <th>Paiement</th>
+                                <th>Livraison</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>23</td>
+                                    <td>Produit 1</td>
+                                    <td>1</td>
+                                    <td>non payé</td>
+                                    <td>Aramex</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>45</td>
+                                    <td>Produit 2</td>
+                                    <td>2</td>
+                                    <td>non payé</td>
+                                    <td>Aramex</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+            </section>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Votre identité &#128180;</legend>
+                        <ol>
+                            <li>
+                                <label for="nom">Nom</label>
+                                <input id="nom" name="nom" type="text" placeholder="Prénom et nom">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="Ecrire votre email"
+                                    minlength="8">
+                            </li>
+                            <li>
+                                <labelfor="telephone">Téléphone</labelfor=>
+                                    <input id="telephone" name="telephone" type="tel"
+                                        placeholder="Exemple: +216 987654321" required>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Adresse de livraison &#128233; </legend>
+                        <ol>
+                            <li>
+                                <label for="adresse">Adresse</label>
+                                <textarea id="adresse" name="adresse" rows="5" required></textarea>
+                            </li>
+                            <li>
+                                <label for="codepostal">Code postal</label>
+                                <input id="codepostal" name="codepostal" type="text" required>
+                            </li>
+                            <li>
+                                <label for="pays">Pays</label>
+                                <input id="pays" name="pays" type="text" required>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informations CB &#128179;</legend>
+                        <ol>
+                            <li>
+                                <fieldset>
+                                    <legend>Type de carte bancaire</legend>
+                                    <ol>
+                                        <li>
+                                            <input name="typedecarte" type="radio">
+                                            <label>Visa</label>
+                                        </li>
+                                        <li>
+                                            <input name="typedecarte" type="radio">
+                                            <label>AmEx</label>
+                                        </li>
+                                        <li>
+                                            <input name="typedecarte" type="radio">
+                                            <label>Mastercard</label>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                            <li>
+                                <label for="numerodecarte">N° de carte</label>
+                                <input id="numerodecarte" name="numerodecarte" type="text" required>
+                            </li>
+                            <li>
+                                <label for="securite">Code sécurité</label>
+                                <input id="securite" name="securite" type="text" required>
+                            </li>
+                            <li>
+                                <label for="nomporteur">Nom du porteur</label>
+                                <input id="nomporteur" name="nomporteur" type="text" placeholder="">
+                            </li>
+                        </ol>
+                    </fieldset>
+                    <fieldset>
+                        <button type="submit">
+                            <b>Acheter &#9989;</b>
+                        </button>
+                        <button type="reset">
+                            <b>Annuler &#10060;</b>
+                        </button>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <div class="slider2">
+                    <input type="radio" name="testimonial" id="t-1">
+                    <input type="radio" name="testimonial" id="t-2">
+                    <input type="radio" name="testimonial" id="t-3" checked>
+                    <input type="radio" name="testimonial" id="t-4">
+                    <input type="radio" name="testimonial" id="t-5">
+                    <div class="testimonials">
+                        <label class="item" for="t-1">
+                            <img src="OIP.jpg" alt="picture">
+                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <h2>- Princy, Web Developer</h2>
+                        </label>
+                        <label class="item" for="t-2">
+                            <img src="OIP.jpg" alt="picture">
+                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <h2>- Princy, Web Developer</h2>
+                        </label>
+                        <label class="item" for="t-3">
+                            <img src="OIP.jpg" alt="picture">
+                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <h2>- Princy, Web Developer</h2>
+                        </label>
+                        <label class="item" for="t-4">
+                            <img src="OIP.jpg" alt="picture">
+                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <h2>- Princy, Web Developer</h2>
+                        </label>
+                        <label class="item" for="t-5">
+                            <img src="OIP.jpg" alt="picture">
+                            <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <h2>- Princy, Web Developer</h2>
+                        </label>
+                    </div>
+                    <div class="dots">
+                        <label for="t-1"></label>
+                        <label for="t-2"></label>
+                        <label for="t-3"></label>
+                        <label for="t-4"></label>
+                        <label for="t-5"></label>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="sidebar">
+            <div class="static-txt">Text Typing Animation
+                <ul class="dynamic-txt">
+                    <li><span>CSS</span></li>
+                </ul>
+            </div>
+            <div class="iteam">
+                <h1>Menu</h1>
+                <ul>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                    <li><a href="">MenuItem</a></li>
+                </ul>
+            </div>
+            <div>
+                <article>
+                    <h1>Article</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+                        Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
+                        Mauris ante ligula, facilisis sed ornare eu, lobortis in odio.
+                        Praesent convallis urna a lacus interdum ut hendrerit risus congue.
+                        sed ullamcorper ipsum dignissim ac. In at libero sed</p>
+                </article>
+            </div>
+            <div>
+                <video controls>
+                    <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+                    <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+                </video>
+                <p>Quelque information sur le vidéo</p>
+            </div>
+
+            <div class="modal-container">
+                <input id="modal-toggle" type="checkbox">
+                <button>Open Modal</button>
+                <div class="modal-backdrop">
+                    <div class="modal-content">
+                        <label class="modal-close" for="modal-toggle">x</label>
+                        <h2 class="blackColor">Modal title</h2>
+                        <hr />
+                        <p class="blackColor">Modal Content</p>
+                        <label class="modal-close button" for="modal-toggle">Close</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="footerSection">
+            <p>Footer Element 1</p>
+            <p>Footer Element 1</p>
+            <p>Footer Element 1</p>
+        </div>
+        <div class="footerSection">
+            <p>Footer Element 2</p>
+            <p>Footer Element 2</p>
+            <p>Footer Element 2</p>
+        </div>
+        <div class="footerSection">
+            <p>Footer Element 3</p>
+            <p>Footer Element 3</p>
+            <p>Footer Element 3</p>
+        </div>
+    </footer>
+</body>
+
+</html>
