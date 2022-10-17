@@ -965,15 +965,10 @@ video {
   border-top: 1px solid #ccc;
 }
 
-
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
-
-body {
-  padding: 30px;
 }
 
 .tabset {
